@@ -45,8 +45,8 @@ h4 {
           mentored developers and IT operators on best practices; introduced tools for developer productivity
         ◦ Operations Lead: Managed IT services for application security, identity and access management, middleware in 
           a 24/ 7 environment; developed glass-table view of operations metrics for middleware and application performance
-        ◦ Architect: Designed a highly available and elastic identity and access management stack for applications running
-          in NIF; re-designed top level topologies for active directory groups used for both data and application access
+        ◦ Architect: Designed modifications to security framework to extend support to groups, redesigned middleware technology 
+          stack, and identity and access management services
     • Self Employed                                                                          Bronx, NY
       Consultant                                                                             Mar 2006 - Feb 2007
         ◦ LAMP developer: Developed real estate lead generation website; decommissioned online presence of small stock
@@ -60,59 +60,53 @@ h4 {
         ◦ Consultant: Developed approval workflows for document management for Sitebuilder, the precursor to Oracle
           Portal
 	<h4>Key Projects</h4>
-    • IT Operations: Owner of web, application, single sign-on and other middleware services in an internal private cloud
-      that was spread over 200+ VMs with over 2 million hits daily from 1000+ users; supported 24/7 operations of NIF
-       ◦ Splunk - Visualized machine data to analyze user trends and system performance over time in Shot Data Systems,
-         created Splunk artifacts to provide glass-table view of IT operations and promoted use of software across teams
-       ◦ Docker - Assessed application in a container strategy and developed process steps to deploy Docker in NIF
-         infrastructure, prototyped microservices for security roles web service using Node.js/ Express
-       ◦ Salesforce - Spearheaded resolution of SSL cipher related issue that required coordination between developers,
-         networking teams (NIF/ LLNL) and Salesforce.com support when moving up their API version for TLS 1.2 support
-       ◦ Single point of contact for management of projects, incidents and escalations; performed root cause analysis; liaised
-         with customers, internal (technical/ non-technical) teams and management; expedited resolution of issues
-    • Security: Directed a multi-pronged project to overhaul security at NIF after discovering multiple issues affecting the
-      stability and scalability of IT operations that resulted in a streamlined security posture
-       ◦ Active Directory - created new top-level topology in AD for groups, setup group memberships, redesigned common
-         security module to utilize group-based access
-       ◦ Database - Extended internal application security repository to support groups, memberships in RBAC, setup
-         scheduled service that synchronized users/ group data from AD using built-in packages
-       ◦ Identity &amp; Access Management - Redeployed OAM Single Sign-On service as a unified high availability stack that
-         supported multiple application domains and software lifecycle environments while reducing IT footprint by 70%
-       ◦ F5 BIG-IP - Configured F5 policies to restrict cross-environment access, manage application domains, and reject
-        requests based on URI; developed attribute based access control to regulate application access using metadata
-    • Middleware: Designed operations framework to standardize middleware technology stack with both short-term and
-      long-term support emphasis; obtained approval, resources from stakeholders and successfully completed the migration
-       ◦ Migration - Led the operation to move all in-house applications to new standard running on private cloud;
-         eliminated old hardware and software; consolidated licensing requirements, saved more than $135,000 yearly
-       ◦ Production Copy - Established new domain environment consisting of host VMs, application servers, applications,
-         load balanced endpoints troubleshoot production data related issues; prevented developer accidents in production
-       ◦ Increased Developer Productivity - Capitalized on the single middleware standard to deliver a unified development
-         environment for developer desktop with tooling (JRebel) to support reduced downtime between code changes
-    • DevOps: Integrated middleware with other DevOps tools to manage, monitor and log services; used centralized services
-      such as RunDeck/ Puppet in middleware infrastructure; developed solutions that reduced wait-times
-       ◦ Continuous Integration / Continuous Deployment - Launched Jenkins with LDAP in NIF infrastructure to support
-         CI/ CD services; worked with change management team to assimilate Jenkins into their service stack
-       ◦ Infrastructure as Code - Engineered script-based creation of WebLogic/ OAM domain components and resources,
-         committed scripts to git and used those to deliver fast, reliable and repeatable environments
-       ◦ Automated Zero Downtime Deployment - Utilized new features in WebLogic to automatically deploy without
-         pausing services, enabled cross functional applications like security web services to be deployed with no downtime
-       ◦ Monitoring - Linked Oracle Enterprise Manager agents to support end-to-end monitoring of middleware services;
-         enabled JVMD to diagnose memory leaks and db waits through live thread analysis
-    • Oracle Portal Export/ Import: Software Development Lead in charge of migration tool for Oracle Portal which was
-      used by clients including those in Fortune 500: Citigroup, Oracle Corporation, POSCO Steel, P&amp;O Stena Line
-       ◦ Architecture - Designed an extensible framework to deploy, backup and seed portal objects that received a US
-         Patent; shrunk number of bugs from well over 60% to less than 2% of the bug total
-       ◦ Dogfooding - Facilitated use of migration tool with team management as one of the options in seeding my.oracle.com
-         when it deployed on Oracle Portal (ca. 2005); used the exercise to gain valuable insights and address bugs
+    • IT Operations: Owner of web, application, single sign-on and other middleware services in an internal private cloud that was 
+      spread over 200+ VMs with over 2 million hits daily from 1000+ users; supported 24/7 operations of NIF
+        ◦ Headed middleware operations that moved applications to new standard running on private cloud, eliminated old hardware and 
+          software, consolidated licensing requirements and saved more than $135,000 annually
+        ◦ Managed a high available single sign-on service for mission critical applications running in NIF control room and redeployed 
+          OAM to support multiple other application domains while reducing IT footprint by 70%
+        ◦ Prototyped Docker and NodeJS solutions to assess application in a container strategy and micro-services in response to 
+          developer requests
+    • Splunk: Managed Splunk services for Shot Data Systems, configured indexers, setup knowledge objects, field extractions, 
+      lookup tables and others to gain insight into business operations, monitor security and application performance
+        ◦ Leveraged advanced features of Splunk such as Regex, Rex, Search Processing Language (SPL), etc., to search, correlate and 
+          visualize data from ingested logs and SQL queries to monitor events
+        ◦ Defined metrics and KPI to track performance of in-house applications, report system statuses, monitor user access and 
+          managing adherence to DOE’s security compliance policies
+        ◦ Standardized configuration and log file locations of application, application server, web and others to ease ingestion of 
+          machine data into Splunk and reduce normalization requirements for Splunk CIM
+    • Security: Directed a multi-pronged project to overhaul security at NIF after discovering multiple issues affecting the stability 
+      and scalability of IT operations that resulted in a streamlined security posture
+        ◦ Created new top-level topology in AD for groups, corresponding data tables in RDBMS, analyzed organization structure and 
+          matrix role to assist creation of new groups and led development in redesign of security libraries
+        ◦ Configured F5 to restrict cross-environment access, manage application domains, reject requests based on URI and other 
+          attribute based access control policies to regulate application access using metadata
+    • Middleware: Designed operations framework to standardize middleware technology stack with both short-term and long-term support 
+      emphasis; obtained approval, resources from stakeholders and successfully completed the migration
+        ◦ Eliminated outdated and unsupported software from technology stack by persuading development teams to update their applications 
+          and led development of new solutions that replaced old software
+        ◦ Capitalized on the single middleware standard to deliver a unified development environment for developer desktop with tooling 
+          (JRebel) to support reduced downtime between code changes
+    • DevOps: Integrated middleware with other DevOps tools to manage, monitor and log services; used centralized services such as 
+      RunDeck/ Puppet in middleware infrastructure; developed solutions that reduced wait-times
+        ◦ Engineered script-based creation of WebLogic/ OAM domain components and resources, committed scripts to git and used 
+          Infrastructure as Code principles to deliver fast, reliable and repeatable environments
+        ◦ Utilized new features in WebLogic to automatically deploy applications, enabled versioning in cross functional applications  
+          like security web services to support Automated Zero Downtime Deployment techniques
+    • Oracle Portal Export/ Import: Software Development Lead in charge of migration tool for Oracle Portal which was used by clients  
+      including those in Fortune 500: Citigroup, Oracle Corporation, POSCO Steel, P&amp;O Stena Line
+        ◦ Architected an extensible export/ import framework to deploy, backup and seed portal objects that received a US Patent and  
+          resulted in reduction of number of bugs from well over 60% to less than 2%
+        ◦ Facilitated use of migration tool to seed and manage my.oracle.com when it deployed on Oracle Portal (ca. 2005), used the  
+          dogfooding exercise to gain valuable insights and address bugs
 	<h4>Skills</h4>
     • Project &amp; Lifecycle Management: Agile project management, Database design (RDBMS), Enterprise-wide implementations,
       Migrations and integrations, Process improvements, Requirements analysis, Resource planning, Software development,
       Design and development, Scheduling, Testing, Rollout, Support
     • Value-Added Leadership: Cross-functional and multi-geographic team supervision, Team building &amp; mentoring,
       Skilled negotiator, Customer management, Collaborative leader
-    • Technical Skills: Bamboo, Bash, BitBucket, C#, Docker, Eclipse, Enterprise Manager, F5, Forms/ Reports, Git,
-      HTTPServer, IAM, Java, Jenkins, Jira, JMeter, LDAP, Linux, MySQL, NodeJS/ Express, PL/SQL, PowerShell,
-      Puppet, Python, RDBMS, RunDeck, Splunk, SQL, Tomcat, VM, WebLogic, Wiki, Windows
+    • Technical Skills: Bash, Git, HTTP Server, i18n/ l10n, Java, JMeter, Linux, PL/SQL, PowerShell, Python, Splunk, SQL, VM, WebLogic
     <h4>Education</h4>
     • George Mason University                                                                   Fairfax, VA
       MS in Electrical &amp; Computer Engineering                                                   1995
